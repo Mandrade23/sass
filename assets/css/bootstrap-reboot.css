@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -74,8 +75,9 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  /* font-family: var(--bs-body-font-family); */
   font-size: var(--bs-body-font-size);
+  font-family: 'Tiro Devanagari Marathi', serif;
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
