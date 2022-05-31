@@ -4547,7 +4547,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4628,6 +4628,11 @@ fieldset:disabled .btn {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
+}
+
+.card-header-tabs .nav-link.active {
+  background-color: #212529;
+  border-bottom-color: #212529;
 }
 
 .card-header-pills {
